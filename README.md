@@ -4,7 +4,9 @@ super tiny vimrc with very few settings set, and with some profiling mappings to
 
 # install
 
+create a tiny shim as your `~/.vimrc`
+
 ```
-git clone https://github.com/bling/minivimrc ~/minivimrc
-echo "source ~/minivimrc/vimrc" > ~/.vimrc
+set rtp+=~/path/to/minivimrc
+source ~/path/to/minivimrc/vimrc
 ```
