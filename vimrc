@@ -9,7 +9,6 @@ set keywordprg=":help"
 set autoindent
 set backspace=indent,eol,start
 
-set showmatch
 set ttimeout
 set ttimeoutlen=50
 
