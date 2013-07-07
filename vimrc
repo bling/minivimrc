@@ -1,8 +1,8 @@
 set nocompatible
 call pathogen#infect()
 
-let mapleader = ","
-let g:mapleader = ","
+filetype plugin indent on
+syntax enable
 
 set keywordprg=":help"
 
@@ -16,6 +16,9 @@ set incsearch
 set hlsearch
 
 set laststatus=2
+
+let mapleader = ","
+let g:mapleader = ","
 
 nnoremap <leader>v <C-w>v<C-w>l
 nnoremap <leader>s <C-w>s
